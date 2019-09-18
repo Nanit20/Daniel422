@@ -37,7 +37,7 @@ public class Person {
     
     private double MS_PER_YEAR(){
         return MILISECONDS_PER_SECOND *
-                SECONDS_PER_MINUTE + MINUTE_PER_HOUR *
+                SECONDS_PER_MINUTE * MINUTE_PER_HOUR *
                 HOUR_PER_DAY * DAY_PER_YEAR;
     }
 }
